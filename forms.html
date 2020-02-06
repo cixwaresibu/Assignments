@@ -9,7 +9,7 @@
             <table>
                 <tr>
                     <td>
-                       <label for="name">Full Name:</label> 
+                       <label for="name" required>Full Name:</label> 
                     </td>
                     <td>
                         <input type="text" name="full-name" placeholder="enter your name" id="name"> 
@@ -52,6 +52,16 @@
                     </td>
                 </tr>
                 <tr>
+                    <td><label for="text">Description </label>
+                    </td>
+                    <td>
+                       <textarea placeholder="enter some information here" name="description" id="text" cols="10" rows="5">
+
+                       </textarea>
+                    </td>
+                    
+                </tr>
+                <tr>
                     <td>
                         <label>I want to be:</label>   
                     </td>
@@ -70,7 +80,7 @@
                             <option value="Mobile developer" id="md">
                                 Mobile developer
                             </option>
-                            <option selected disabled hidden>
+                            <option selected disabled >
                                 select one
                             </option>
                         </select>
