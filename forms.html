@@ -5,7 +5,7 @@
         </title>
     </head>
     <body>
-        <form >
+        <form method="post" >
             <table>
                 <tr>
                     <td>
@@ -37,9 +37,9 @@
                         <label>subject</label>
                     </td>
                     <td>
-                        <input type="checkbox" name="subject" id="HTML"> HTML
-                        <input type="checkbox" name="subject" id="CSS"> CSS
-                        <input type="checkbox" name="subject" id="JavaScript" checked> JavaScript
+                        <input type="checkbox" name="subject" value="HTML" id="HTML"> HTML
+                        <input type="checkbox" name="subject" value="CSS" id="CSS"> CSS
+                        <input type="checkbox" name="subject" value="JavaScript" id="JavaScript" checked> JavaScript
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +78,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="button" name="Register" value="Register">
+                        <button type="submit">Submit</button>
                     </td>
                     <td>
                         <input type="button" name="Cancel" value="Cancel">    
