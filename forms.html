@@ -9,32 +9,32 @@
             <table>
                 <tr>
                     <td>
-                        Full Name:
+                       <label for="name">Full Name:</label> 
                     </td>
                     <td>
-                        <input type="text" name="full-name" placeholder="enter your name"> 
+                        <input type="text" name="full-name" placeholder="enter your name" id="name"> 
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        Email:
+                      <label for="email">Email:</label>  
                     </td>
                     <td>
-                        <input type="email" name="email" placeholder="eg: jdoe@gmail.com">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Password:
-                    </td>
-                    <td>
-                        <input type="password" name="password">
+                        <input type="email" name="email" placeholder="eg: jdoe@gmail.com" id="email">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Subject: 
+                       <label for="password">Password:</label> 
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>subject</label>
                     </td>
                     <td>
                         <input type="checkbox" name="subject" id="HTML"> HTML
@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Gender: 
+                        <label>Gender</label> 
                     </td>
                     <td>
                         <input type="radio" name="gender" id="male" checked> Male
@@ -53,24 +53,25 @@
                 </tr>
                 <tr>
                     <td>
-                        I want to be:
+                        <label>I want to be:</label>   
                     </td>
                     <td>
-                        <select name="I want to be" id="">
-                            <option>
-                                select one
-                            </option>
-                            <option value="UI designer">
+                        <select name="I want to be">
+                            
+                            <option value="UI designer" id="uid">
                                 UI designer
                             </option>
-                            <option value="Frontend developer">
+                            <option value="Frontend developer" id="fd">
                                 Frontend developer
                             </option>
-                            <option value="Backend developer">
+                            <option value="Backend developer" id="bd">
                                 Backend developer
                             </option>
-                            <option value="Mobile developer">
+                            <option value="Mobile developer" id="md">
                                 Mobile developer
+                            </option>
+                            <option selected>
+                                select one
                             </option>
                         </select>
                     </td>
