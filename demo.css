@@ -1,0 +1,99 @@
+.container{
+    border: 2px solid lavender;
+    margin: 0px 10%;
+    background-color: white;
+
+}
+body{
+    background-color: lavenderblush;
+}
+#header{
+    position: relative;
+    font-size: x-large;
+    font-weight: 300;
+
+}
+#header-info{
+    position: absolute;
+    top: 0px;
+    right: 15%;
+    color: gray;
+    font-size: 10px ;
+    text-align: center;
+    font-style: normal;
+    font-family: cursive ;
+
+}
+#left-sidebar{
+    position: fixed;
+    margin-left: 10px;
+    width: 15%;
+    margin-bottom: 2px;
+}
+#l-side-ul{
+    margin-left: -40px;
+}
+.heading{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#l-side-ul li{
+    font-size: 15px;
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: 2px;
+    /* padding-left: 60px; */
+    background-color: khaki;
+    line-height: 20px;
+    border-left: 1px solid gray;
+    padding: 2px;
+    /* text-align: center; */
+    margin-bottom: 3px;
+}
+#l-side-info{
+    position: relative;
+    /* margin-left: 5px; */
+    padding-left: 5px;
+    background-color: lightgray;
+}
+#log{
+    position: absolute;
+    right: 3px;
+    margin-top:1px;
+    padding : 1px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+#sidenote{
+    color: rgb(44, 33, 33);
+}
+#right-sidebar{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 15%;
+    margin-right: 10%;
+    
+}
+#body{
+    margin-left: 25%;
+    margin-right: 20%;
+}
+#link{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+#r-side-ul li{
+    list-style: "-";
+}
+a{
+    padding: 2px;
+    text-decoration: none;
+}
+/* a:hover{
+    color: green;
+} */
